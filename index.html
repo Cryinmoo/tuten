@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Tutenchamon - Wystawa w Warszawie</title>
+        <title>Tutanchamon - Wystawa w Warszawie</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -16,10 +16,16 @@
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script src="assets/aos/aos.js"></script>
+
         <!-- Animation-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="assets/aos/aos.css" rel="stylesheet">
 </head>
     <body id="page-top">
+        <script>
+            AOS.init();
+         </script>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -38,134 +44,283 @@
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" >
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center " id="about">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Wystawa w</h1>
                         <h1 class="mx-auto my-0 text-uppercase">Warszawie</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5"> Zapraszamy na kolejną edycję wystawy poświęconej Tutenchamonowi. </h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
-        <!--
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+        <!--SECTIONS-->
+        <section class="container-fluid bg-light">
+            <div class="row justify-content-center" data-aos="zoom-in-up">
+              <div class="col-md-6">
+                <img src="assets/img/egypt1.jpg" class="img-fluid mx-auto rounded-4 mt-5">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center mt-3 my-3"> 
+                <p class="fs-1 font-weight-bold">Wystawa Tutanchamona w Warszawie</p>
+                </div>
+                <div class="container">
+                    <div class="row mb-5">
+                      <div class="col">
+                      </div>
+                      <div class="col-8">
+                        <p class="fs-5 font-italic text-center text-black-50 mb-0">
+                            Wystawa Tutanchamon - Grobowiec i Skarby była wydarzeniem nie tylko dla miłośników historii, ale także dla wszystkich, którzy kochają tajemnicze i fascynujące podróże w czasie. To wydarzenie, niestety już zakończone, przeniosło nas w magiczny świat faraona, gdzie mogliśmy poznać nie tylko historię samego władcy, ale także wspaniałą kulturę starożytnego Egiptu. Ekspozycja, która po raz pierwszy od wielu lat zagościła w Polsce, oddawała hołd archeologowi Howardowi Carterowi, który dokładnie 100 lat temu odkrył grobowiec Tutanchamona.
                         </p>
+                      </div>
+                      <div class="col">
+                      </div>
+                    </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    -->
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-6 px-lg-6 overflow-hidden">
+          </section>
+          <section class="about-section">
+            <div class="container-fluid overflow-hidden" data-aos="zoom-in-up">
                 <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-5 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                <div class="row gx-5 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-5 col-lg-6">
+                        <img class="mb-lg-0 img-fluid rounded-4" src="assets/img/egypt2.jpg" alt="..." /></div>
                     <div class="col-xl-7 col-lg-6 my-3">
                         <div class="featured-text text-center">
-                            <h4>Wystawa Tutanchamona w Warszawie</h4>
-                            <p class="text-black-50 mb-0">Wystawa Tutanchamon - Grobowiec i Skarby była wydarzeniem nie tylko dla miłośników historii, ale także dla wszystkich, którzy kochają tajemnicze i fascynujące podróże w czasie. To wydarzenie, niestety już zakończone, przeniosło nas w magiczny świat faraona, gdzie mogliśmy poznać nie tylko historię samego władcy, ale także wspaniałą kulturę starożytnego Egiptu. Ekspozycja, która po raz pierwszy od wielu lat zagościła w Polsce, oddawała hołd archeologowi Howardowi Carterowi, który dokładnie 100 lat temu odkrył grobowiec Tutanchamona.</p>
+                            <h1 style="color: #ffa25b">Wystawa Tutanchamona Warszawa 2022</h1>
+                            <p class="text-white mb-0 fs-5 mt-1">
+                                Wszystko czekało na spragnionych wrażeń miłośników historii w samym sercu Muzeum Nowa Praga. Ekspozycja ta przykuwała uwagę już od pierwszych kroków. Replika grobowca Tutanchamona w Warszawie, wiernie odwzorowana, zapierała dech w piersiach swoim majestatem. Wchodząc do środka, czuliśmy się jakbyśmy przekroczyli próg czasu i przenieśli się tysiące lat wstecz. Rzeźby, hieroglify, i inne elementy wystroju grobowca były wierne oryginałowi, co sprawiało, że czuliśmy się jak prawdziwi badacze odkrywający skarby starożytnego świata. 
+                            </p>                     
                         </div>
                     </div>
                 </div>
-            <!-- Sekcja 2------------------------------------->
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">  
-                    <div class="col-xl-7 col-lg-6">
-                        <div class="featured-text text-center ">
-                            <h4>Wystawa Tutanchamona Warszawa 2022</h4>
-                            <p class="text-black-50 mb-0">Wszystko czekało na spragnionych wrażeń miłośników historii w samym sercu Muzeum Nowa Praga. 
-                                Ekspozycja ta przykuwała uwagę już od pierwszych kroków. Replika grobowca Tutanchamona w Warszawie, wiernie odwzorowana, 
-                                zapierała dech w piersiach swoim majestatem. Wchodząc do środka, czuliśmy się jakbyśmy przekroczyli próg czasu i przenieśli 
-                                się tysiące lat wstecz. Rzeźby, hieroglify, i inne elementy wystroju grobowca były wierne oryginałowi, co sprawiało, że czuliśmy 
-                                się jak prawdziwi badacze odkrywający skarby starożytnego świata. </p>
-                        </div>  
-                    </div>
-                    <div class="col-xl-5 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                </div>
-                </div>
-              </section> 
-            <!-- space -->
-            <section class="about-section text-center" id="about">
-              <div class="container px-4 px-lg-5">
-              </div>
-
-          <!-- space -->
-          </section>
-            <div class="container px-6 px-lg-6 overflow-hidden mb-5 mt-5">
-            <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              <h2>Fully Responsive Design</h2>
-              <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
-            <div class="col-lg-6 my-auto showcase-text">
-              <h2>Updated For Bootstrap 4</h2>
-              <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
-            </div>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-3.jpg');"></div>
-            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-              <h2>Easy to Use &amp; Customize</h2>
-              <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
-            </div>
-          </div>
-          </div>
-
-          <!-- space -->
-          <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
             </div>
             </section>
-
-        <!-- space -->
-          <!-- 3 section-->
-          <div class="container px-6 px-lg-6 overflow-hidden mb-5 mt-5">
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Jak wyglądała wystawa: Tutanchamon - Grobowiec i Skarby?</h4>
-                                    <p class="mb-0 text-white-50">Na tej wyjątkowej wystawie mieliśmy szansę przenieść się w czasie i zagłębić się w sekrety tajemniczego starożytnego Egiptu. W trakcie zwiedzania mogliśmy podziwiać nie tylko komory grobowca Tutanchamona, ale także wspaniałe repliki skarbów, które zostały niegdyś odnalezione przez samego Howarda Cartera. Każdy detal tych replik był starannie tworzony przy użyciu tradycyjnych technik rzemieślniczych sprzed tysięcy lat, pod ścisłym nadzorem światowych ekspertów z dziedziny egiptologii.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
           <!--3 section end-->
+          <section class="projects-section bg-light">
+            <div class="container px-lg-6 overflow-hidden" data-aos="zoom-in">
+                <div class="row gx-5 mb-2 mb-lg-2 align-items-center">  
+                    <div class="col-xl-7 col-lg-6">
+                        <div class="featured-text text-center ">
+                            <h1>Jak wyglądała wystawa: Tutanchamon - Grobowiec i Skarby?</h1>
+                            <p class="text-black-50 mb-0 fs-5">Wszystko czekało na spragnionych wrażeń miłośników historii w samym sercu Muzeum Nowa Praga. 
+                                Na tej wyjątkowej wystawie mieliśmy szansę przenieść się w czasie i zagłębić się w sekrety 
+                                tajemniczego starożytnego Egiptu. W trakcie zwiedzania mogliśmy podziwiać nie tylko komory 
+                                grobowca Tutanchamona, ale także wspaniałe repliki skarbów, które zostały niegdyś odnalezione 
+                                przez samego Howarda Cartera. Każdy detal tych replik był starannie tworzony przy użyciu tradycyjnych 
+                                technik rzemieślniczych sprzed tysięcy lat, pod ścisłym nadzorem światowych ekspertów z dziedziny egiptologii.
+                            </p>
+                            <p class="text-black-50 mb-0 fs-5 pt-5">
+                                Przygotowanie wystawy było doskonałe pod względem naukowym, ponieważ opisy eksponatów zawierały szczegółowe i 
+                                wyczerpujące informacje. Każdy odwiedzający wystawę Tutanchamona w Warszawie, 
+                                z niezwykłym zainteresowaniem odkrywał  jej tajemnice. Ponadto, podczas zwiedzania 
+                                mogliśmy korzystać z przewodnika audio, który w sposób ciekawy opowiadał o mijanych eksponatach. 
+                                To nie było zwykłe oglądanie - to była pełna edukacyjna podróż w głąb historii Egiptu, 
+                                która pozwoliła nam lepiej zrozumieć kulturę starożytnego świata. 
+                            
+                            </p>
+                        </div>  
+                    </div>
+                    <div class="col-xl-5 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/egypt3.jpg" alt="..." /></div>
+                </div>
+                </div>
+              </section>
+              <!-- end-->
+              <section class="about-section" style="background-color: #086784">
+                <div class="container px-lg-6 overflow-hidden" data-aos="zoom-in-up">
+                    <div class="row gx-5 mb-lg-2 align-items-center flex-row-reverse py-5">  
+                        <div class="col-xl-7 col-lg-6">
+                            <div class="featured-text text-center ">
+                                <p class="text-white mb-0 fs-5">
+                                    Jednym z głównych atrakcji wystawy była rekonstrukcja przedsionka grobowca 
+                                    Tutanchamona oraz samej komory grobowej. Dzięki tej rekonstrukcji mieliśmy 
+                                    okazję przyjrzeć się skarbom, które zostały odkryte dokładnie w takim samym ułożeniu, 
+                                    jakie zastał je Howard Carter sto lat temu. Oglądanie samego grobowca i skarbów Tutanchamona w 
+                                    Warszawie było niezwykłym przeżyciem.
+                                </p>
+                                <p class="text-white mb-0 fs-5 pt-4">
+                                    Należy również podkreślić, że mimo zakończenia wystawy Tutanchamona w Warszawie, 
+                                    pozostawiła ona trwałe wrażenie na wszystkich, którzy mieli okazję wziąć udział w tym 
+                                    historycznym wydarzeniu. To nie tylko była podróż w czasie, ale także inspiracja do dalszych 
+                                    badań i odkryć w fascynującej historii Egiptu oraz kultury starożytnego świata.
+                                </p>
+                                <p class="text-white mb-0 fs-5 pt-4">
+                                    Tutanchamona w Warszawie można było odwiedzić od 26.10. 2022 do 25 czerwca 2023 roku. 
+                                    Początkowo wystawa miała być dostępna tylko do kwietnia, jednak ze względu na ogromne 
+                                    zainteresowanie, termin wystawy został przedłużony, co pozwoliło jeszcze większej liczbie 
+                                    osób na podziwianie tego tajemniczego świata. Grobowiec Tutanchamona jest pełen zagadek i historii, 
+                                    a wystawa pomogła odkryć tajemnice związane z faraonem, jego rodziną i historią starożytnego Egiptu.
+                                </p>
+
+                            </div>  
+                        </div>
+                        <div class="col-xl-5 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/egypt-9.jpg" alt="..." /></div>
+                    </div>
+                    </div>
+                  </section>
+                  <!--NEXT SECTION-->
+                  <section class="container-fluid bg-light" data-aos="fade-up">
+                    <div class="row justify-content-center" >
+                      <div class="col-md-6">
+                        <img src="assets/img/egypt10.jpg" class="img-fluid mx-auto rounded-4 mt-5">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-12 text-center mt-3 my-3"> 
+                        <p class="fs-1 font-weight-bold">Warszawa wystawa - Egipt bliżej niż myślicie</p>
+                        </div>
+                        <div class="container">
+                            <div class="row mb-5">
+                              <div class="col">
+                              </div>
+                              <div class="col-8" style="border-style: outset">
+                                <p class="fs-5 font-italic text-center text-black-50 mb-0 border-dark border-bottom py-4">
+                                    Choć wystawa już nie jest dostępna, pozostawiła w naszych sercach trwałe wspomnienia o tajemniczym 
+                                    faraonie i jego skarbach. To wyjątkowe doświadczenie pozwoliło nam wczuć się w atmosferę starożytnego 
+                                    świata i zrozumieć znaczenie Tutanchamona dla tej kultury. Było to niezapomniane podróżowanie w czasie,
+                                     która na zawsze pozostanie w naszej pamięci. Grobowiec Tutanchamona w Warszawie ukazał się na tle 
+                                     tętniącego życiem miasta, przynosząc historię i tajemnicę starożytnego Egiptu na jego ulice.
+                                </p>
+                                <p class="fs-5 font-italic text-start text-black-50 mb-0 py-4 border-dark border-bottom">
+                                    Kultura starożytnego Egiptu to jedna z najbardziej fascynujących i trwałych cywilizacji w historii ludzkości. Przez wieki Egipt rozwijał swoją kulturę, religię i technologię, tworząc jednocześnie niezwykłą i tajemniczą cywilizację na brzegach Nilu. Jednymi z najważniejszych postaci w tej kulturze byli faraonowie, którzy byli nie tylko władcami, ale również boskimi monarchami, utożsamianymi z bóstwami.
+                                </p>
+                                <p class="fs-5 font-italic text-start text-black-50 mb-0 py-4 border-dark border-bottom">
+                                    Faraonowie odgrywali centralną rolę w społeczeństwie. Określani jako "inkarnację Horusa," boga ochrony
+                                     i władzy, cieszyli się boskim status i byli uważani za wyjątkowe połączenie władzy politycznej i 
+                                     duchowej. Dlatego też faraonowie nie tylko kierowali państwem, ale także pełnili funkcje duchowych 
+                                     przywódców Egiptu. Ich rządy były ściśle związane z religią i kultem bóstw, a monumentalne budowle, 
+                                     takie jak piramidy czy świątynie, miały szczególne znaczenie jako miejsca kultu i oddawania czci bogom.
+                                </p>
+                                <p class="fs-5 font-italic text-start text-black-50 mb-0 py-4">
+                                    Egipcjanie byli znani z hieroglifów, skomplikowanego systemu piśmiennictwa, który umożliwiał im zachowanie swojej
+                                     historii i wiedzy. Architektura starożytnego Egiptu jest również imponująca - piramidy, grobowce, i świątynie były budowane z 
+                                     ogromnym rozmachem i precyzją. Można było dowiedzieć się tego podczas zwiedzania wystawy Tutanchamona w Warszawie. 
+                                     Kultura egipska była niezwykle rozwinięta i pozostawiła po sobie wiele dziedzin sztuki i nauki, o czym mogliśmy się przekonać.
+                                </p>
+                              </div>
+                              <div class="col">
+                              </div>
+                            </div>
+                            </div>
+                        </div>
+                  </section>
+                  <!-- end section-->
+                  <section class="about-section" style="background-color: #086784">
+                    <div class="container px-lg-6 overflow-hidden" data-aos="zoom-in-up">
+                        <div class="row gx-5 mb-lg-2 align-items-center py-5">  
+                            <div class="col-xl-7 col-lg-6">
+                                <div class="featured-text text-center ">
+                                    <h1 style="color: #ffa25b">Dziedzictwo Tutanchamona w Warszawie</h1>
+                                    <p class="text-white mb-0 fs-5">
+                                        Wystawa Tutanchamona w Warszawie w 2022 roku przyciągnęła tłumy entuzjastów. 
+                                        Nic dziwnego, ponieważ faraon jest postacią, która wciąż budzi ogromne zainteresowanie i fascynację. 
+                                        Rozpoczął swoje rządy w bardzo młodym wieku, a jego grobowiec stanowi nieocenioną kopalnię wiedzy o 
+                                        starożytnym Egipcie. Tutanchamon zmarł w tajemniczych okolicznościach, co wzbudziło wiele spekulacji 
+                                        na temat przyczyn jego śmierci. 
+                                    </p>
+                                </div>  
+                            </div>
+                            <div class="col-xl-5 col-lg-6"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/egypt-9.jpg" alt="..." /></div>
+                        </div>
+                        </div>
+                      </section>
+                      <!-- next section-->
+                      <section class="projects-section">
+                        <div class="text-center fs-1" style="color: #ffa25b">Historia młodego faraona</div>
+                        <div class="container px-6 px-lg-6 overflow-hidden mb-5 mt-5" style="border-style: ridge" data-aos="fade-up">
+                            <div class="row no-gutters">
+                                <div class="text-center pb-4">
+                                </div>
+                            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                              <p class="lead mb-0 text-center">
+                                Faraon Tutenchamon, którego imię w języku egipskim oznaczało "Żyjący obraz Amona," jest postacią,
+                                która wciąż budzi ogromne zainteresowanie i fascynację. Urodził się prawdopodobnie około 1342 roku p.n.e.
+                                 i objął tron Egiptu w wieku zaledwie dziewięciu lat. Jego krótka władza, trwająca około dziesięciu lat, 
+                                 jest często nazywana "okresem Amarnyjskim" ze względu na wprowadzenie przez jego poprzednika, 
+                                 faraona Echnatona, kultu boga Atona jako głównego boga Egiptu.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 text-white showcase-img"></div>
+                            <div class="col-lg-6 my-auto showcase-text">
+                              <p class="lead mb-0 text-center">
+                            Tutanchamon, nawet będąc tak młodym władcą, miał spory wpływ na losy starożytnego 
+                            Egiptu, ale to przede wszystkim jego grobowiec i kosztowności, które pozostawił po swojej śmierci,
+                             uczyniły go sławnym na całym świecie. Odkrycie Howarda Cartera w roku 1922, stało się jednym z 
+                             najważniejszych odkryć archeologicznych wszech czasów.
+                            </p>
+                            </div>
+                          </div>
+                          <div class="row no-gutters">
+                            <div class="col-lg-6 order-lg-2 text-white showcase-img"></div>
+                            <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                              <p class="lead mb-0 text-center">
+                                Światowej sławy złota maska Tutanchamona, która zdobiła jego zmumifikowane ciało, jest symbolem bogactwa 
+                                i piękna starożytnego Egiptu. Oprócz maski, w grobowcu znaleziono wiele innych klejnotów, biżuterię, 
+                                ceramikę oraz cenne przedmioty codziennego użytku. Odkrycie grobowca Tutanchamona otworzyło okno na 
+                                tajemniczą historię tej niezwykłej postaci i cywilizacji, która przetrwała tysiąclecia, fascynują kolejne 
+                                pokolenia badaczy i miłośników historii. 
+                                Dlatego też Tutanchamon, jego grobowiec i skarby stanowiły punkt
+                                 kulminacyjny wystawy w Warszawie.                            
+                            </p>
+                            </div>
+                          </div>
+                          </div>
+                      </section>
+                      <!--NEW-->
+                      <section class="about-section text-center" id="cena">
+                        <div class="container px-4 px-lg-5" data-aos="zoom-in-up">
+                            <div class="row gx-4 gx-lg-5 justify-content-center">
+                                <div class="col-lg-10">
+                                    <h2 class="text-white mb-4">Wystawa Tutanchamona Warszawa - wrażenia po zwiedzaniu</h2>
+                                    <p class="text-white">
+                                        Bilety na wystawę Tutanchamona w Warszawie były na wagę złota, a kolejki, które 
+                                        tworzyły się przed Muzeum Narodowym, świadczyły o ogromnym zainteresowaniu tym 
+                                        wydarzeniem. Standardowe bilety kosztowały od 40 do 70 złotych za osobę, w zależności 
+                                        od wieku odwiedzających oraz dnia tygodnia, w którym zaplanowana była wizyta.
+                                         Wielu entuzjastów musiało rezerwować je z wyprzedzeniem. 
+                                    </p>
+                                    <p class="text-white">
+                                        Spotkanie z Tutenchamonem w Warszawie było ogromną atrakcją.
+                                         Dla niektórych osób wystawa była jedyna okazja, by zobaczyć te niezwykłe repliki 
+                                         skarbów i odkryć tajemnice grobowca Tutanchamona w Warszawie. Zarówno dorośli, 
+                                         jak i dzieci opuszczali muzeum z uśmiechem na twarzy i głębszą wiedzą o starożytnym 
+                                         Egipcie. To miejsce pełne wspaniałych artefaktów i fascynujących historii było miejscem,
+                                        gdzie historia żyła na nowo, a nauka stawała się fascynującą przygodą dla wszystkich
+                                        odwiedzających.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- LAST -->
+                    <section class="container overflow-hidden" data-aos="fade-up">
+                            <!-- Featured Project Row-->
+                            <div class="row gx-5 mb-4 mb-lg-5 align-items-center py-5">
+                                <div class="col-xl-5 col-lg-6">
+                                    <img class="mb-lg-0 img-fluid rounded-4" src="assets/img/egypt-11.jpg" alt="..." /></div>
+                                <div class="col-xl-7 col-lg-6 my-3">
+                                    <div class="featured-text text-center">
+                                        <div class="section-title">
+                                        <h2 style="color: #ffa25b">Podsumowanie</h2>
+                                        <p class="text-black mb-0 fs-5 mt-1">
+                                            Wystawa Tutanchamona w Warszawie była nie tylko podróżą w czasie, ale także fascynującym spojrzeniem na starożytny Egipt. To wyjątkowe doświadczenie przypomniało nam o bogactwie i tajemniczości tej dawnej cywilizacji oraz historii odkrywania skarbu faraona. Dla tych, którzy marzą o podróży w czasie, a nie zdążyli udać się na wystawę w Warszawie o starożytnym Egipcie, przypominamy, że historia nie znika, a niektóre tajemnice starożytnego Tutanchamona wciąż czekają na odkrycie.To być może właśnie ty, drogi czytelniku, dokonasz kolejnych przełomów w fascynującej historii tej starożytnej cywilizacji. Tutanchamon, Warszawa i czar starożytnego Egiptu - to były niezapomniane przeżycia, które na zawsze pozostaną w naszych sercach, inspirując do dalszych poszukiwań i odkryć w zakamarkach historii.                                        </p>                     
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div id="main">
+                            <div data-aos="fade-up">Something up!</div>
+                         </div>
+                  
+                         
+                     
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy;  2023</div>
         </footer>

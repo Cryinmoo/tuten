@@ -1,10 +1,5 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-/*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
@@ -40,7 +35,8 @@
   --bs-info: #1cabc4;
   --bs-warning: #e4c662;
   --bs-danger: #a16468;
-  --bs-light: #f8f9fa;
+  --bs-light: #a6a99c;
+  --bs-first:#edefeb;
   --bs-dark: #212529;
   --bs-black: #000;
   --bs-white: #fff;
@@ -604,6 +600,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  object-fit:cover ;
 }
 
 .img-thumbnail {
@@ -8305,6 +8302,10 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
+.bg-first {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-first-rgb), var(--bs-bg-opacity)) !important;
+}
 
 .bg-dark {
   --bs-bg-opacity: 1;
@@ -10973,6 +10974,7 @@ textarea.form-control-lg {
 }
 html {
   scroll-padding-top: calc(4.5rem - 1px);
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11068,16 +11070,16 @@ body {
 
 .masthead {
   position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
+  height: 200px;
+  min-height: 500px;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/egypt4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
 .masthead h1, .masthead .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 2.5rem;
@@ -11124,7 +11126,7 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 .projects-section .featured-text {
   padding:0 0 0 0;
@@ -11203,4 +11205,41 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
 }
